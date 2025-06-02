@@ -1,4 +1,3 @@
-# IntelliJ / NetBeans / Eclipse (Java IDE specific)
 .idea/
 .vscode/
 *.iml
@@ -20,23 +19,20 @@ target/
 *.DS_Store
 *.orig
 
-# Log files
+
 *.log
 logs/
 
-# Operating System files
+
 .DS_Store
 Thumbs.db
 
-# PHP / Composer
+
 vendor/
 composer.lock
 .env
 node_modules/
 
-# XAMPP / Local server specific (if any, usually not versioned)
-# Add any XAMPP specific temp or config files you don't want shared
 
-# Any other sensitive files
 *.bak
 *.swp
