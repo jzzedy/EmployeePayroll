@@ -1,11 +1,42 @@
-# Java build files
-/build/
-/dist/
-*.class
-*.log
+# IntelliJ / NetBeans / Eclipse (Java IDE specific)
+.idea/
+.vscode/
+*.iml
+*.project
+*.classpath
 nbproject/private/
+nbproject/project.properties
+nbproject/build-impl.xml
+build/
+dist/
+out/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.DS_Store
+*.orig
 
-# PHP cache files
-/vendor/
-/node_modules/
-/.env
+# Log files
+*.log
+logs/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# PHP / Composer
+vendor/
+composer.lock
+.env
+node_modules/
+
+# XAMPP / Local server specific (if any, usually not versioned)
+# Add any XAMPP specific temp or config files you don't want shared
+
+# Any other sensitive files
+*.bak
+*.swp
