@@ -1,0 +1,11 @@
+# Java build files
+/build/
+/dist/
+*.class
+*.log
+nbproject/private/
+
+# PHP cache files
+/vendor/
+/node_modules/
+/.env
